@@ -98,13 +98,9 @@ export default function Register() {
             }
         }
         localStorage.setItem("user", JSON.stringify(user))
-       /* create(user).then((data) => {
-            if (data) {
-                setValues({ ...values, error: "", open: true });
-            }
-        }).catch((error) => {
-            setValues({ ...values, error: error.response.data.error});
-        });*/
+        if(user){
+            navigate("/login")
+        }
     };
 
     return (

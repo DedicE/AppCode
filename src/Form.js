@@ -94,7 +94,7 @@ const Form = ({ patients, setPatients, patient, setPatient }) => {
     };
 
     return (
-        <div className="w-full md:w-1/3 lg:w-3/4">
+        <div className="w-full lg:w-3/4">
             <h2 className="font-black text-3xl text-center">
                 Form Patients
             </h2>

@@ -3,7 +3,7 @@ import Patients from "./Patients"
 const ListPatients = ({ patients, setPatient, deletePatient }) => {
 
     return (
-        <div className="w-full md:w-1/2 lg:w-3/5">
+        <div className="w-full containerform lg:w-3/5">
 
             {patients && patients.length ? (
                 <>
@@ -27,7 +27,7 @@ const ListPatients = ({ patients, setPatient, deletePatient }) => {
                 </>
             )}
 
-            <div className="md:h-screen md:overflow-y-scroll">
+            <div className="md:h-screen">
                 {patients.map( (patients) => {
                     return(
                         <Patients

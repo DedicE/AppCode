@@ -5,6 +5,7 @@ import PetVet from "./PetVet"
 import Vet from "./Vet";
 import Register from './Register';
 import Login from './Login';
+import VetDashboard from './VetDashboard';
 
 function MainRouter( props ) {
     return (
@@ -14,6 +15,7 @@ function MainRouter( props ) {
                 <Route exact path="/pet-vet-form" element={<Vet/>}/>
                 <Route exact path="/register" element={<Register/>}/>
                 <Route exact path="/login" element={<Login/>}/>
+                <Route exact path="/vet-dashboard" element={<VetDashboard/>}/>
             </Routes>
     );
 }

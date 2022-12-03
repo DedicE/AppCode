@@ -25,7 +25,7 @@ function Vet() {
     }
 
     return (
-        <div className="container mx-auto mt-30" style={{marginLeft: '250px'}}>
+        <div className="containerform mx-auto mt-30" >
 
             <div className="mt-14 flex flex-col md:flex-row" >
                 <Form
